@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    background-color: lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border: 2px solid slateblue;
+    margin: 0 auto;
+}
+
+h2 {
+    color: slateblue;
+}
+
+h3 {
+    background-color: plum;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+th {
+    padding: 0%;
+}
+
+td {
+    text-align: left;
+    padding: 0px 15px;
+    border-top: 1px solid slateblue;
+}
