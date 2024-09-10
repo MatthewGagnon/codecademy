@@ -1,0 +1,99 @@
+html,
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.container,
+.container-featured,
+.container-locations,
+.container-mission {
+    margin: 0 auto;
+}
+
+.container-nav {
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+    height: 50px;
+    width: 160px;
+    padding-left: 10px;
+}
+
+nav {
+    align-content: center;
+}
+
+a {
+    color: seashell;
+    padding-right: 20px;
+}
+
+.container-mission {
+    border-bottom: 1px solid seashell;
+    background-image: url("img-mission-background.jpg");
+    background-size: 1200px 700px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission-text {
+    background-color: black;
+    width: 100%;
+}
+
+.container-featured img {
+    width: 300px;
+    height: 200px;
+}
+
+.container-locations {
+    background-image: url("img-locations-background.jpg");
+    background-size: 1200px 500px;
+    height: 500px;
+    width: 1200px;
+}
+
+.container-locations div {
+    background-color: black;
+    margin: 15px 20px;
+    height: 300px;
+    width: 300px;
+    padding: 12px 10px;
+    line-height: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.container-featured figure {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.container-locations h2 {
+    padding-top: 60px;
+}
+
+figcaption {
+    padding-top: 10px;
+}
